@@ -1,0 +1,13 @@
+ Çalışmanızda bir paneli kapatmak CTRL + B kısayolunu kullanabilirsiniz.
+
+ Bulunduğunuz dosyadan farklı bir dosyayı açmak istediğinizde CTRL + P kısayolunu kullanabilirsiniz. Bu kısayolu kullandığınızda karşınıza çıkacak menüde açmak istediğiniz dosyanın ismini yazarak bulduktan sonra üzerine gelip Enter tuşuna basabilirsiniz.
+
+Projenizde açık olan dosyaları CTRL + W kombinasyonunu kullanarak kapatabilirsiniz.
+
+Açık olan dosyalar arasında geçiş yapmak için ilk öncelikle CTRL + Tab kombinasyonunu kullanmalı ve CTRL tuşundan elinizi çekmeden yukarıda açılacak menüde Tab tuşuna basarak geçiş yapmak istediğiniz dosyayı seçmelisiniz.
+
+Dosyalarınızı kaydetmek için CTRL + S klavye kısayolunu kullanabilirsiniz. Projenizde yer alan tüm dosyalardaki değişiklikleri kaydetmek için CTRL + ALT + S kombinasyonunu kullanabilirsiniz.
+
+
+
+

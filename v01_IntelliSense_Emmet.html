@@ -1,0 +1,188 @@
+<!-- 
+    ! işareti
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<!--
+    Html Elementlere Id ve Css tanımlama: 
+    İlgili element’e “#” ile id tanımlaması, “.” ile css tanımlaması yapılır. 
+    
+    1-) div#emmetdiv
+
+    2-) div.table.tbl_funcy
+
+-->
+
+<div id="emmetdiv"></div>
+
+<div class="table tbl_funcy"></div>
+
+<!--
+    Ekeleme ve Bir Alta İnme : “+” ile aynı seviyede 2 html element birleştirirken, 
+    alt kırılıma “>” işareti ile inilmektedir. 
+    
+    div+div>p>ul>li
+
+-->
+
+<div></div>
+<div>
+    <p>
+        <ul>
+            <li></li>
+        </ul>
+    </p>
+</div>
+
+<!--
+    em”elementinin bir üstüne “bq” konulmuştur.
+
+    div+div>p>span+em^bq
+-->
+
+    <div></div>
+    <div>
+        <p>
+            <span><em></em></span>
+            <bg></bg>
+        </p>
+    </div>
+
+    
+<!--
+    Gurup ve Çoklama :
+    “()” ile ilgili html element alanı guruplanır, ayrıca “*3” ile ilgili elementin tekrarlanma sayısı belirlenir.
+
+    div>(header>ul>li*2>a)+footer>p
+-->
+
+<div></div>
+<header>
+    <ul>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+    </ul>
+</header>
+<footer>
+    <p></p>
+</footer>
+
+
+<!--
+    Sıralı artan elemanlar:  “$” ile sayısal olarak 1’den başlayıp birer artacak sıralamanın basamak sayısı belirlenir. Kaç basamak olucak ise o kadar “$” işareti konur. Son olaraka gelinecek son sıralama sayısı belirlenir.
+
+    ul>li.item$*5
+-->
+
+<ul>
+    <li class="item1"></li>
+    <li class="item2"></li>
+    <li class="item3"></li>
+    <li class="item4"></li>
+    <li class="item5"></li>
+    <li class="item6"></li>
+    <li class="item7"></li>
+    <li class="item8"></li>
+    <li class="item9"></li>
+    <li class="item10"></li>
+</ul>
+
+<!--
+Sıralı azalan 3 basamaklı dizim : Azalma işlemi için “@-” işareti konur. Böylece belirlenen sayıdan itibaren birbir geriye gidilir. Ayrıca “$$$” işereti ile azalma işlemi 3 basamak üzerinden yapıla bilmektedir.
+
+ul>li.item$$$@-*6
+-->
+
+<ul>
+    <li class="item006"></li>
+    <li class="item005"></li>
+    <li class="item004"></li>
+    <li class="item003"></li>
+    <li class="item002"></li>
+    <li class="item001"></li>
+</ul>
+
+<!--
+Yazı : Htlm elementler arasına “{}” işareti ile istenen yazı yazılabilir.
+
+p>{Tıkla }+a{detay}+{ devamı…}
+-->
+<p>Tıkla<a href="">detay</a>devamı...</p>
+
+<!--
+
+(header>ul.nav>li*4>item$*2)+footer
+-->
+
+<header>
+    <ul class="nav">
+        <li>
+            <item1></item1>
+            <item2></item2>
+        </li>
+        <li>
+            <item1></item1>
+            <item2></item2>
+        </li>
+        <li>
+            <item1></item1>
+            <item2></item2>
+        </li>
+        <li>
+            <item1></item1>
+            <item2></item2>
+        </li>
+    </ul>
+</header>
+<footer></footer>
+<!--
+Kısa tanımlamalar : Alttak örnekde “table>tr#row$*4>td[colspan=2]” yerine kısa yazımı gösterilmiştir. Aynı durum “ul>li.item*3” içinde geçerlidir.
+
+table>#row$*4>[colspan=2]
+ul>.item*3
+-->
+<table>
+    <tr id="row1">
+        <td colspan="2"></td>
+    </tr>
+    <tr id="row2">
+        <td colspan="2"></td>
+    </tr>
+    <tr id="row3">
+        <td colspan="2"></td>
+    </tr>
+    <tr id="row4">
+        <td colspan="2"></td>
+    </tr>
+</table>
+
+<ul>
+    <li class="item"></li>
+    <li class="item"></li>
+    <li class="item"></li>
+    <li class="item"></li>
+</ul>
+<!--
+Lorem Ipsu (Test amaçlı yazı): Bu örnekde Lorem ile dummy text nasıl yazılır onu göreceğiz. Lorem10 yanına konan 10 yazılacak kelime sayısını belirtmektedir.
+
+ul.generic-list>lorem10.item*4
+-->
+<ul class="generic-list">
+    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, asperiores.</li>
+    <li>Facilis consectetur cupiditate quam harum, vitae voluptatibus? Fugiat, quaerat et.</li>
+    <li>Dignissimos quasi quis libero sint corrupti voluptas porro veritatis totam.</li>
+    <li>Neque nemo provident minus aut? Quaerat maxime minus autem cupiditate!</li>
+    <li>Numquam dolorem unde ipsam explicabo hic, magnam repudiandae iusto rem.</li>
+</ul>
